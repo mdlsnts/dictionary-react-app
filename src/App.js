@@ -9,7 +9,26 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Marta Delos Santos</footer>
+        <footer>
+          Project coded by&nbsp;
+          <a
+            href="https://linktr.ee/martadlsnts"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            Marta Delos Santos
+          </a>
+          , open-sourced on&nbsp;
+          <a
+            href="https://github.com/mdlsnts/dictionary-react-app"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
