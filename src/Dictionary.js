@@ -11,11 +11,11 @@ export default function Dictionary() {
     event.preventDefault();
 
     function handleResponse(response) {
-      setResult(response.data);
+      setResult(response.data[0]);
       console.log(response.data);
     }
-    let apiKey = "o1tc4ebff6db3c7b81795bb7e3b230a1";
-    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
   function handleKeywordChange(event) {
