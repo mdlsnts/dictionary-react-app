@@ -1,3 +1,49 @@
 .Dictionary {
   text-align: center;
 }
+.Dictionary section {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.search-form {
+  border: 1px solid #0a4d68;
+  border-radius: 5px;
+}
+
+.btn-search {
+  border: 1px solid #0a4d68;
+  border-radius: 5px;
+  background-color: #ffefef;
+  color: #0a4d68;
+  margin-left: 5px;
+}
+
+.btn-search:hover {
+  background-color: #ffdbdb;
+}
+
+.Result {
+  margin: 10px;
+  padding: 15px;
+}
+
+.Result h2 {
+  text-align: center;
+  font-size: 45px;
+  vertical-align: middle;
+}
+
+.Phonetic a {
+  color: #116a7b;
+  margin: 10px;
+  line-height: 30px;
+}
+.Phonetic a:hover {
+  color: #ff0060;
+}

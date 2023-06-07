@@ -1,3 +1,15 @@
 .Meaning {
   text-align: justify;
 }
+.Meaning h4 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+.definition {
+}
+.example {
+}
+.Synonyms {
+  font-weight: bold;
+  text-decoration: none;
+}

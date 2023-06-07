@@ -28,7 +28,7 @@ export default function Dictionary() {
         <input
           type="search"
           onChange={handleKeywordChange}
-          placeholder="Search"
+          placeholder=""
           className="search-form"
           value={message}
         />
@@ -36,6 +36,7 @@ export default function Dictionary() {
           Search
         </button>
       </form>
+
       <Result result={result} />
     </div>
   );

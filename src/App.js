@@ -1,5 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
             className="footer-link"
           >
             Marta Delos Santos
-          </a>
-          , open-sourced on&nbsp;
+          </a>{" "}
+          and it's open-sourced on{" "}
           <a
             href="https://github.com/mdlsnts/dictionary-react-app"
             target="_blank"

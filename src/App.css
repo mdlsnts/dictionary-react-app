@@ -1,11 +1,45 @@
 .App-header {
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   margin: 20px;
+  font-weight: 600;
+}
+
+.container {
+  background-color: #f7fdfb;
+  max-width: 700px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 15px #6d6d6d;
+  font-size: 16px;
 }
 
 footer {
   margin: 20px;
   text-align: center;
   font-size: 12px;
+  border-top: 1px dashed #dddddd;
+  padding-top: 15px;
+}
+
+body {
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/742/original/glen-carrie-oHoBIbDj7lo-unsplash.jpg?1686150366");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer a {
+  color: #be6db7;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #116a7b;
 }
