@@ -1,16 +1,21 @@
 .Meaning {
   text-align: justify;
   padding: 20px;
+  font-family: "Diphylleia", serif;
 }
 .Meaning h4 {
   font-size: 30px;
-  text-decoration: underline;
+  font-weight: bold;
   padding-bottom: 15px;
 }
 .definition {
-  color: brown;
+  font-size: 18px;
+  color: #3c2a21;
 }
 .example {
-  color: blue;
+  opacity: 0.8;
   padding: 0 30px;
+  font-size: 16px;
+  color: #183a1d;
+  font-weight: bold;
 }

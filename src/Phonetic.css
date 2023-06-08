@@ -1,0 +1,26 @@
+.Phonetic {
+  display: inline-block;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Phonetic a {
+  color: black;
+  border: 1px solid rgb(72, 33, 33, 0.5);
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 15px;
+  line-height: 30px;
+  transition: all 150ms ease-in-out;
+}
+.Phonetic a:hover {
+  background-color: #fcf8f8;
+}
+
+.Phonetic .text {
+  margin: 10px;
+  opacity: 0.7;
+  font-size: 15px;
+}

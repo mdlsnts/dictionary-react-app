@@ -4,6 +4,7 @@
 .Dictionary section {
   background-color: white;
   padding: 15px;
+  opacity: 0.9;
   border-radius: 5px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   margin: 0 auto;
@@ -12,23 +13,23 @@
 }
 
 .search-form {
-  border: 1px solid rgb(10, 77, 104, 0.3);
+  border: 1px solid rgb(72, 33, 33, 0.3);
   border-radius: 8px;
   width: 40%;
   padding: 5px 4px;
 }
 
 .btn-search {
-  border: 1px solid rgb(10, 77, 104, 0.3);
+  border: 1px solid rgb(72, 33, 33, 0.3);
   border-radius: 8px;
-  background-color: #ffefef;
-  color: #0a4d68;
+  background-color: #fcf8f8;
+  color: #482121;
   margin-left: 5px;
   padding: 5px 10px;
 }
 
 .btn-search:hover {
-  background-color: #ffdbdb;
+  background-color: #f5ebeb;
 }
 
 .Result {
@@ -40,17 +41,7 @@
   text-align: center;
   display: block;
   font-size: 45px;
+  font-family: "Diphylleia", serif;
+  font-weight: bold;
   vertical-align: middle;
-}
-.Phonetic {
-  display: inline-block;
-}
-
-.Phonetic a {
-  color: #116a7b;
-  margin: 10px;
-  line-height: 30px;
-}
-.Phonetic a:hover {
-  color: #ff0060;
 }

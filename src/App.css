@@ -1,12 +1,13 @@
 .App-header {
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
   margin: 20px;
   font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
-  background-color: #f7fdfb;
+  background-color: rgb(247, 253, 251, 0.7);
   max-width: 700px;
   border-radius: 10px;
   padding: 10px;
@@ -22,11 +23,11 @@ footer {
   font-size: 12px;
   border-top: 1px dashed #dddddd;
   padding-top: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/742/original/glen-carrie-oHoBIbDj7lo-unsplash.jpg?1686150366");
-  background-repeat: no-repeat;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/843/original/pexels-berti-weber-2404185.jpg?1686239953");
   background-size: cover;
 }
 

@@ -1,6 +1,8 @@
 .Synonyms li {
   list-style: none;
-  color: green;
-  font-style: italic;
-  padding: 0 30px;
+  font-family: "Diphylleia", serif;
+  color: #3e3f41;
+  font-weight: bold;
+  padding-left: 30px;
+  display: inline;
 }
