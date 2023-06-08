@@ -1,15 +1,16 @@
 .Meaning {
   text-align: justify;
+  padding: 20px;
 }
 .Meaning h4 {
   font-size: 30px;
   text-decoration: underline;
+  padding-bottom: 15px;
 }
 .definition {
+  color: brown;
 }
 .example {
-}
-.Synonyms {
-  font-weight: bold;
-  text-decoration: none;
+  color: blue;
+  padding: 0 30px;
 }

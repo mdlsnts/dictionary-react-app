@@ -3,25 +3,28 @@
 }
 .Dictionary section {
   background-color: white;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 15px;
+  border-radius: 5px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   margin: 0 auto;
   margin-bottom: 20px;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .search-form {
-  border: 1px solid #0a4d68;
-  border-radius: 5px;
+  border: 1px solid rgb(10, 77, 104, 0.3);
+  border-radius: 8px;
+  width: 40%;
+  padding: 5px 4px;
 }
 
 .btn-search {
-  border: 1px solid #0a4d68;
-  border-radius: 5px;
+  border: 1px solid rgb(10, 77, 104, 0.3);
+  border-radius: 8px;
   background-color: #ffefef;
   color: #0a4d68;
   margin-left: 5px;
+  padding: 5px 10px;
 }
 
 .btn-search:hover {
@@ -35,8 +38,12 @@
 
 .Result h2 {
   text-align: center;
+  display: block;
   font-size: 45px;
   vertical-align: middle;
+}
+.Phonetic {
+  display: inline-block;
 }
 
 .Phonetic a {

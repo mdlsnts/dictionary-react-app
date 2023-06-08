@@ -3,7 +3,7 @@ import "./Dictionary.css";
 
 export default function Phonetic(props) {
   return (
-    <div className="Phonetic">
+    <div className="Phonetic flex">
       <a href={props.phonetic.audio} target="_blank">
         Listen
       </a>{" "}
