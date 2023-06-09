@@ -21,7 +21,7 @@ footer {
   margin: 20px;
   text-align: center;
   font-size: 12px;
-  border-top: 1px dashed #dddddd;
+  border-top: 1px dashed rgb(72, 33, 33, 0.3);
   padding-top: 15px;
   font-family: "Montserrat", sans-serif;
 }
@@ -37,7 +37,7 @@ footer {
 }
 
 footer a {
-  color: #be6db7;
+  color: #643843;
   text-decoration: none;
 }
 

@@ -1,0 +1,37 @@
+.Photos img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.Photos {
+  background-color: white;
+  padding: 15px;
+  opacity: 0.9;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: -25px;
+  max-width: 700px;
+}
+
+@media (max-width: 996px) {
+  .Photos {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 766px) {
+  .Photos {
+    max-width: 465px;
+  }
+}
+@media (max-width: 576px) {
+  .Photos {
+    max-width: 440px;
+  }
+}
+@media (max-width: 500px) {
+  .Photos {
+    max-width: 425px;
+  }
+}
