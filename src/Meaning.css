@@ -12,6 +12,9 @@
   font-size: 18px;
   color: #3c2a21;
 }
+#definition {
+  border-bottom: 1px dashed rgb(72, 33, 33, 0.2);
+}
 .example {
   opacity: 0.8;
   padding: 0 30px;
@@ -32,5 +35,6 @@
   }
   .example {
     font-size: 14px;
+    padding: 0 20px;
   }
 }
