@@ -45,3 +45,13 @@
   font-weight: bold;
   vertical-align: middle;
 }
+
+@media (max-width: 576px) {
+  section {
+    max-width: 600px;
+  }
+
+  .Result h2 {
+    font-size: 35px;
+  }
+}

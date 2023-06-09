@@ -29,9 +29,13 @@
   .Photos {
     max-width: 440px;
   }
+  .Photos img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 500px) {
   .Photos {
-    max-width: 425px;
+    max-width: 280px;
   }
 }

@@ -19,3 +19,18 @@
   color: #183a1d;
   font-weight: bold;
 }
+
+@media (max-width: 576px) {
+  .Meaning {
+    padding: 10px;
+  }
+  .Meaning h4 {
+    font-size: 25px;
+  }
+  .definition {
+    font-size: 16px;
+  }
+  .example {
+    font-size: 14px;
+  }
+}

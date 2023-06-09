@@ -29,6 +29,7 @@ footer {
 body {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/843/original/pexels-berti-weber-2404185.jpg?1686239953");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 footer {
@@ -43,4 +44,18 @@ footer a {
 
 footer a:hover {
   color: #116a7b;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 350px;
+  }
+
+  .App-header {
+    font-size: 35px;
+  }
+  footer {
+    font-size: 10px;
+    font-weight: bold;
+  }
 }
