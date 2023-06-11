@@ -1,7 +1,9 @@
 .Photos img {
   border-radius: 5px;
   margin-bottom: 20px;
+  display: block;
 }
+
 .Photos {
   background-color: white;
   padding: 15px;
